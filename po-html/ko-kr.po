@@ -707,7 +707,7 @@ msgstr ""
 
 #: ../en/index.html
 msgid "World of Goo"
-msgstr ""
+msgstr "월드 오브 구"
 
 #: ../en/index.html
 msgid "View photos"
