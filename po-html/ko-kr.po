@@ -345,7 +345,7 @@ msgstr "종료…"
 
 #: ../en/index.html
 msgid "Send"
-msgstr ""
+msgstr "보냄"
 
 #: ../en/index.html
 msgid "Darkening Clockwork"
@@ -353,11 +353,11 @@ msgstr ""
 
 #: ../en/index.html
 msgid "Ubuntu One Music"
-msgstr ""
+msgstr "우분투 원 음악"
 
 #: ../en/index.html
 msgid "Inkscape Vector Graphics Editor"
-msgstr ""
+msgstr "잉크스케이프 백터 그래픽 에디터"
 
 #: ../en/index.html
 msgid "Create presentations"
@@ -365,7 +365,7 @@ msgstr "발표자료 만들기"
 
 #: ../en/index.html
 msgid "Original Message"
-msgstr ""
+msgstr "원본 메시지"
 
 #: ../en/index.html
 msgid "AisleRoit Solitaire"
@@ -380,26 +380,28 @@ msgid ""
 "Chromium is an open-source browser project that aims to build a safer, "
 "faster, and more stable way for all Internet users to experience the web."
 msgstr ""
+"크로미움은 안전하고,빠름을 목표로 하는 오픈소스 브라우저입니다, "
+"그리고 유저의 웹 경험을 더 안정화시켜줍니다."
 
 #: ../en/index.html
 msgid "Email"
-msgstr ""
+msgstr "이메일"
 
 #: ../en/index.html
 msgid "Sent"
-msgstr ""
+msgstr "보내기"
 
 #: ../en/index.html
 msgid "subject"
-msgstr ""
+msgstr "제목"
 
 #: ../en/index.html
 msgid "All Folders"
-msgstr ""
+msgstr "모든 폴더"
 
 #: ../en/index.html
 msgid "Fri 26 Oct, 2001"
-msgstr ""
+msgstr "2001년 10월 26일 금"
 
 #: ../en/index.html
 msgid "Langelinie Alle"
@@ -407,23 +409,23 @@ msgstr ""
 
 #: ../en/index.html
 msgid "Your Ubuntu, your way"
-msgstr ""
+msgstr "당신의 우분투,당신의 방법"
 
 #: ../en/index.html
 msgid "Downloads"
-msgstr "Downloads"
+msgstr "다운로드"
 
 #: ../en/index.html
 msgid "Recently Used"
-msgstr ""
+msgstr "최근 사용됨"
 
 #: ../en/index.html
 msgid "Ubuntu Help"
-msgstr ""
+msgstr "우분투 도움말"
 
 #: ../en/index.html
 msgid "Amazon"
-msgstr ""
+msgstr "아마존"
 
 #: ../en/index.html
 msgid "Ctrl+Alt+L"
@@ -431,15 +433,15 @@ msgstr ""
 
 #: ../en/index.html
 msgid "reply"
-msgstr ""
+msgstr "리플"
 
 #: ../en/index.html
 msgid "Title:"
-msgstr ""
+msgstr "주제:"
 
 #: ../en/index.html
 msgid "Search and download apps fast from the Ubuntu Software Centre."
-msgstr ""
+msgstr "우분투 소프트웨어 센터로 앱을 빠르게 찾고 다운로드하세요."
 
 #: ../en/index.html
 msgid "$19.99"
@@ -451,21 +453,23 @@ msgstr ""
 
 #: ../en/index.html
 msgid "About This Computer"
-msgstr ""
+msgstr "이 컴퓨터에 대해서"
 
 #: ../en/index.html
 msgid "Connection Information"
-msgstr ""
+msgstr "연결 정보"
 
 #: ../en/index.html
 msgid ""
 "Other extensions use ruby, libxml-xql-perl, python-numpy, and python-lxml. "
 "You must have these packages to make full use of all extensions and effects."
 msgstr ""
+"다른 확장은 루비, libxml-XQL-펄, 파이썬-NumPy와, 그리고 파이썬-LXML 를 사용합니다. "
+"당신은 모든 확장과 효과를 최대한 활용 하기 위해 이러한 패키지가 있어야합니다."
 
 #: ../en/index.html
 msgid "Places"
-msgstr ""
+msgstr "위치"
 
 #: ../en/index.html
 msgid "Fwd"
@@ -473,33 +477,35 @@ msgstr ""
 
 #: ../en/index.html
 msgid "Terminal Server Client"
-msgstr ""
+msgstr "터미널 서버 클라이언트"
 
 #: ../en/index.html
 msgid "Appearance"
-msgstr ""
+msgstr "외형"
 
 #: ../en/index.html
 msgid "LibreOffice Calc"
-msgstr ""
+msgstr "리브레오피스 Calc"
 
 #: ../en/index.html
 msgid "Buck Off"
-msgstr ""
+msgstr "Buck 끄기"
 
 #: ../en/index.html
 msgid "Stalking Ocelot"
-msgstr ""
+msgstr "오셀롯 스토킹"
 
 #: ../en/index.html
 msgid ""
 "Your entire collection follows you around with music streaming to Android "
 "and iPhone"
 msgstr ""
+"당신의 컬렉션 항목은 안드로이드와 아이폰의 음악 스토리밍을 "
+"따를수있습니다"
 
 #: ../en/index.html
 msgid "Remove"
-msgstr ""
+msgstr "제거"
 
 #: ../en/index.html
 msgid ""
@@ -509,7 +515,7 @@ msgstr ""
 
 #: ../en/index.html
 msgid "English"
-msgstr ""
+msgstr "한국어"
 
 #: ../en/index.html
 msgid "Purple Dancers"
