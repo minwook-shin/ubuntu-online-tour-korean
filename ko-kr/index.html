@@ -1,0 +1,1512 @@
+﻿<!DOCTYPE html>
+<html lang="ko-kr" dir="ltr">
+	<head>
+		<title>우분투 온라인 투어</title>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+		<meta charset="UTF-8" />
+		<meta name="description" content="Enjoy the simplicity of Ubuntu's stylish, intuitive interface. Take Ubuntu for a test drive with our online tour and download when you're ready!" />
+		<meta name="keywords" content="ubuntu, ubuntu online, ubuntu tour" />
+		<link rel="stylesheet" href="../css/loader.css" type="text/css" />
+		<link rel="stylesheet" href="../css/error.css" type="text/css" />
+		<link rel="stylesheet" href="../css/base.css" type="text/css" />
+		<link rel="stylesheet" href="../css/folder.css" type="text/css" />
+		<link rel="stylesheet" href="../css/firefox.css" type="text/css" />
+		<link rel="stylesheet" href="../css/email.css" type="text/css" />
+		<link rel="stylesheet" href="../css/systemoverlay.css" type="text/css" />
+		<link rel="stylesheet" href="../css/ubuntuone.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shotwell.css" type="text/css" />
+		<link rel="stylesheet" href="../css/tourguide.css" type="text/css" />
+		<link rel="stylesheet" href="../css/welcome.css" type="text/css" />
+		<link rel="stylesheet" href="../css/shutdown.css" type="text/css" />
+		<link rel="stylesheet" href="../css/movieplayer.css" type="text/css" />
+		<link rel="stylesheet" href="../css/libre.css" type="text/css" />
+		<link rel="stylesheet" href="../css/notification.css" type="text/css" />
+		<link rel="stylesheet" href="../css/software-centre.css" type="text/css" />
+		<!--[if IE 8]>
+		<link rel="stylesheet" href="../css/iefix.css" type="text/css" />
+		<![endif]-->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css' />
+		<script type="text/javascript">
+			WebFontConfig = {
+				google : {
+					families : ['Ubuntu:400,700:latin']
+				}
+			}; (function() {
+				var wf = document.createElement('script');
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+				wf.type = 'text/javascript';
+				wf.async = 'true';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(wf, s);
+			})();
+
+		</script>
+	</head>
+	<body>
+		<div id="loader">
+			<div id="dot-container">
+				<noscript>
+					<p>
+						This demo uses JavaScript. Either your browser doesn't support JavaScript, or it's currently switched off.
+						<br/>
+						<br/>
+						Don't panic. We've got <a href="http://www.ubuntu.com/desktop/take-the-tour-gallery">a non-JavaScript version</a> of the online tour you can view instead. :)
+					</p>
+				</noscript>
+			</div>
+		</div>
+		<div id="top" class="dropShadow">
+			<div id="top-left">
+				<div id="control-buttons">
+					<div id="close"></div>
+					<div id="min"></div>
+					<div id="max"></div>
+				</div>
+				<div id="dash-control-buttons">
+					<div class="close"></div>
+					<div class="min"></div>
+					<div class="max"></div>
+				</div>
+				<div id="title"></div>
+			</div>
+			<div id="top-right">
+				<div id="connection"><img src="../img/top/connection.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							자동 eth0
+						</li>
+						<li class="disabled">
+							연결 해제
+						</li>
+						<li class="divider"></li>
+						<!--<li class="disabled"><img src="../img/top/wireless-icon.png" alt=""/> My Wireless Connection</li>
+						<li class="disabled">연결 해제</li>
+						<li class="divider"></li>-->
+						<li class="disabled">
+							Connection Information
+						</li>
+						<li class="disabled">
+							연결 편집…
+						</li>
+					</ul>
+				</div>
+				<div id="bluetooth"><img src="../img/top/bluetooth.png" alt=""/>
+					<ul class="drop-down">
+						<li class="disabled bluetooth">
+							블루투스 키기
+						</li>
+						<li>
+							블루투스 끄기
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Visible
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled BtOn">
+							디바이스로 파일 전송…
+						</li>
+						<li class="disabled BtOn">
+							디바이스에서 파일 탐색…
+						</li>
+						<li class="divider"></li>
+						<li class="disabled BtOn">
+							Setup new device…
+						</li>
+						<li class="divider BtOn"></li>
+						<li class="disabled">
+							설정
+						</li>
+					</ul>
+				</div>
+				<div id="message"><img src="../img/top/nomessage.jpg" class="message-logo" alt="" />
+					<ul class="drop-down">
+						<li class="system-message"></li>
+					</ul>
+				</div>
+				<div id="speakers"><img src="../img/top/speakers3.png" class="speakers-logo"  alt=""/>
+					<ul class="drop-down">
+						<li>
+							음소거
+						</li>
+						<li class="system-volume">
+							<div class="large-icon"></div><div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled"><img src="../img/top/rhythmbox.png" alt=""/> 리듬박스
+						</li>
+						<li class="banshee">
+							<div class="banshee-rewind"></div><div class="banshee-forward"></div><div class="banshee-play"></div>
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Sound Settings…
+						</li>
+					</ul>
+				</div>
+				<div id="time">
+					<p></p>
+					<ul class="drop-down">
+						<li class="system-calendar"></li>
+					</ul>
+				</div>
+				<div id="power"><img src="../img/top/power.png"  alt=""/>
+					<ul class="drop-down">
+						<li class="disabled">
+							About This Computer
+						</li>
+						<li class="disabled">
+							Ubuntu Help
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							System Settings&hellip;
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							잠금 <span class="key-combo">Ctrl+Alt+L</span>
+						</li>
+						<li class="disabled user">
+							손님 세션
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							Logout
+						</li>
+						<li class="divider"></li>
+						<li class="disabled">
+							절전모드
+						</li>
+						<li class="disabled">
+							Restart&hellip;
+						</li>
+						<li>
+							종료…
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="tooltip">
+			<div class="shadow-arrow"></div>
+			<div class="arrow-right"></div>
+			<div id="tooltip-text"></div>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="dash">
+					<span>대시 홈</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="home"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>홈 폴더</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="firefox"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>파이어폭스 웹 브라우저</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="writer"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>리브레오피스 라이터</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="calc"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Calc</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="impress"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>LibreOffice Impress</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="software"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>우분투 소프트웨어 센터</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="amazon"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>Amazon</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="settings"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>시스템 세팅</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="email temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""><span>Thunderbird Mail</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt="">
+				</li>
+				<li class="shotwell temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>숏웰 포토 매니저</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<li class="movieplayer temp"><img src="../img/menu/open-arrow.png" class="open-arrow" alt=""/><span>영화 플레이어</span><img src="../img/menu/selected-arrow.png" class="selected-window-arrow" alt=""/>
+				</li>
+				<!--<li class="workspace"><span>Workspace Switcher</span></li>-->
+				<li class="rubbish bottom">
+					<span>휴지통</span>
+				</li>
+			</ul>
+		</div>
+		<div id="systemOverlay">
+			<div class="copyDash"></div>
+			<div id="overlayContents">
+				<input type="text" name="search" value="Search your computer and online sources"/>
+				<div id="display-home" class="app-container">
+					<div class="recent-apps bottom"><img src="../img/overlay/recentapps.png" alt=""/> 애플리케이션 <div class="app-list"></div>
+					</div>
+					<div class="recent-files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Files &amp; Folders<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-apps" class="app-container">
+					<div class="frequently bottom"><img src="../img/overlay/recentapps.png" alt=""/> Recently Used <div class="app-list"></div>
+					</div>
+					<div class="installed"><img src="../img/overlay/installed.png" alt=""/> 설치됨<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-files" class="app-container">
+					<div class="files bottom"><img src="../img/overlay/recentfiles.png" alt=""/> Recent<div class="app-list"></div>
+					</div>
+					<div class="downloads bottom"><img src="../img/overlay/downloaded.png" alt=""/> Downloads<div class="app-list"></div>
+					</div>
+					<div class="folders"><img src="../img/overlay/folders.png" alt=""/> 폴더<div class="app-list"></div>
+					</div>
+
+				</div>
+				<div id="display-find-music" class="app-container">
+					<div class="songs bottom"><img src="../img/overlay/folders.png" alt=""/> Songs<div class="app-list"></div>
+					</div>
+					<div class="albums"><img src="../img/overlay/folders.png" alt=""/> 엘범<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-video" class="app-container">
+					<div class="videos bottom"><img src="../img/overlay/folders.png" alt=""/> Videos<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-find-photos" class="app-container">
+					<div class="photos bottom"><img src="../img/overlay/folders.png" alt=""/> My photos<div class="app-list"></div>
+					</div>
+				</div>
+				<div id="display-chat" class="app-container">
+					<div class="message">
+						<p>Sorry, there is nothing that matches your search</p>
+					</div>
+				</div>
+				<div id="display-search" class="app-container">
+					<div class="applications bottom"><img src="../img/overlay/search-apps-logo.jpg" alt=""/> 애플리케이션<div class="app-list"></div>
+					</div>
+					<div class="files"><img src="../img/overlay/search-files-logo.jpg" alt=""/> Files &amp; Folders<div class="app-list"></div>
+					</div>
+				</div>
+			</div>
+			<div id="dash-bottom-bar">
+				<div class="bottom-wrapper">
+					<div class="home-icon active"></div>
+					<div class="applications-icon"></div>
+					<div class="files-icon"></div>
+					<div class="music-icon"></div>
+					<div class="video-icon"></div>
+					<div class="photos-icon"></div>
+					<div class="chat-icon last"></div>
+				</div>
+			</div>
+			<div id="preview">
+				<div class="image"></div>
+				<div class="info"></div>
+				<div class="buttons">
+					<a class="email">E-mail</a>
+					<a class="showInFolder">Show in Folder</a>
+					<a class="open">Open</a>
+				</div>
+			</div>
+		</div>
+		<div id="ubuntuone-window" class="uone window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					Ubuntu One Control Panel
+				</div>
+			</div>
+			<div class="content">
+				<div class="header"></div>
+				<div class="body">
+					<h1>개인 클라우드의 힘</h1>
+					<div class="features">
+						<div class="files-anywhere">
+							<span class="logo"></span>
+							<div>
+								<h3>어디에서나 파일</h3>
+								<p>
+									Backup and access your files from Ubuntu, Windows, Web or Mobile
+								</p>
+							</div>
+						</div>
+						<div class="rock-out">
+							<span class="logo"></span>
+							<div>
+								<h3>Rock Out</h3>
+								<p>
+									Your entire collection follows you around with music streaming to Android and iPhone
+								</p>
+							</div>
+						</div>
+						<div class="keep-connected">
+							<span class="logo"></span>
+							<div>
+								<h3>연결 유지</h3>
+								<p>
+									당신에게 데스크탑, 모바일과 웹의 연락처를 통합합니다
+								</p>
+							</div>
+						</div>
+						<div class="stay-productive">
+							<span class="logo"></span>
+							<div>
+								<h3>생산성 유지</h3>
+								<p>
+									Keep you firefox bookmarks and Tomboy notes synced
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="ubuntuone-buttons">
+						<div class="learn-more"><img src="../img/ubuntuone/ubuntuone-logo.jpg" width="47" height="48" alt=""/>
+							<div>
+								Learn More
+							</div>
+						</div>
+						<div class="join-now">
+							<h2>회원 가입</h2>
+						</div>
+						<div class="have-account">
+							I already have an account!
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="libreoffice-calc-window" class="calc window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					제목없음 1 - 리브레오피스 Calc
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-writer-window" class="writer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					제목없음 1 - 리브레오피스 라이터
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div id="libreoffice-impress-window" class="impress window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					제목없음 1 - 리브레오피스 임프레스
+				</div>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div class="error-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title"></div>
+			</div>
+			<div class="error-container">
+				<h1>우분투를 탐색해주셔서 감사합니다!</h1>
+				<a class="download"  href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">우분투 다운로드</a>
+				<h2>Remember, this is just a demo. You'll have to download it to enjoy the real thing!</h2>
+			</div>
+		</div>
+		<!--<div id="error-window" class="error-window window">
+		<div class="control">
+		<div class="close"></div>
+		<div class="window-title"></div>
+		</div>
+		<div class="content">
+		<img src="../img/error/warning.jpg"/>
+		<div class="message">
+		<p>Thanks for exploring Ubuntu</p>
+		<p>Remember, this is just a demo. You'll have to download it to enjoy the real thing!</p>
+		</div>
+		<div class="error-buttons"><div class="download highlight">우분투 다운로드</div></div>
+		</div>
+		</div>-->
+		<!--<div id="workspaces">
+		<div id="void">
+		<div id="workspace-container">
+		<div id="workspace1"><div class="fadedOverlay"></div></div>
+		<div id="workspace2"><div class="fadedOverlay"></div></div>
+		<div id="workspace3"><div class="fadedOverlay"></div></div>
+		<div id="workspace4"><div class="fadedOverlay"></div></div>
+		<div class="reflection" style="clear:both;"></div>
+		<div class="reflection"></div>
+		</div>
+		</div>
+		</div>-->
+		<div id="email-window" class="email-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Email
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="email-get-mail">
+					메일 얻기
+				</div>
+				<div class="email-divider"></div>
+				<div class="email-write">
+					쓰기
+				</div>
+				<!--<div class="email-address-book"></div>
+				<div class="email-divider"></div>
+				<div class="email-tag"></div>
+				<div class="email-search"><input type="text" name="submitEmailSearch" id="submitEmailSearch"/></div>-->
+			</div>
+			<div style="clear:both;"></div>
+			<div class="email-content">
+				<div class="folder-list">
+					<div class="bottom-buttons">
+						All Folders
+					</div>
+					<div style="clear:both;"></div>
+					<div class="list">
+						<div id="folder-inbox" class="selected"><img src="../img/email/inbox.png" alt=""/> 받은 메일함
+						</div>
+						<div id="folder-draft"><img src="../img/email/drafts.png" alt=""/> Draft
+						</div>
+						<div id="folder-sent"><img src="../img/email/sent.png" alt=""/> Sent
+						</div>
+						<div id="folder-archive"><img src="../img/email/archive-logo.png" alt=""/> 아카이브
+						</div>
+						<div id="folder-trash"><img src="../img/email/trash.png" alt=""/> 휴지통
+						</div>
+					</div>
+				</div>
+				<div class="email-contents">
+					<div class="email-categories">
+						<div><img src="../img/email/t.png" alt=""/>
+						</div>
+						<div><img src="../img/email/star.png" alt=""/>
+						</div>
+						<div><img src="../img/email/clip.png" alt=""/>
+						</div>
+						<div class="subject">
+							제목
+						</div>
+						<div><img src="../img/email/glasses.png" alt=""/>
+						</div>
+						<div class="from">
+							발신
+						</div>
+						<div><img src="../img/email/fire.png" alt=""/>
+						</div>
+						<div class="date">
+							날짜
+						</div>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="email-list"></div>
+					<div class="email-body">
+						<div class="message-header">
+							<div class="email-buttons">
+								<div>
+									<span class="message-reply">reply</span>
+									<span class="message-forward">forward</span>
+									<span class="message-archive">아카이브</span>
+									<span class="message-junk">스팸</span>
+									<span class="message-delete">삭제</span>
+								</div>
+							</div>
+							<div style="clear:both;"></div>
+							<div class="date"></div>
+							<dl class="from">
+								<dt>
+									from
+								</dt><dd></dd>
+							</dl>
+							<dl class="subject">
+								<dt>
+									subject
+								</dt><dd></dd>
+							</dl>
+							<dl class="to">
+								<dt>
+									to
+								</dt><dd></dd>
+							</dl>
+							<dl class="cc">
+								<dt>
+									cc
+								</dt><dd></dd>
+							</dl>
+						</div>
+						<div class="junk-mail-banner"><img src="../img/email/large-fire.jpg" alt=""/> 스팸 메일
+							<div class="not-junk">
+								스팸 아님
+							</div>
+						</div>
+						<div class="message-body"></div>
+					</div>
+				</div>
+				<div style="clear:both;"></div>
+				<div class="emails-info">
+					<div>
+						Unread: <span id="details-unread">1</span> 총: <span id="details-total">1</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="email-write" class="email-write window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Write: (제목없음)
+				</div>
+			</div>
+			<div class="buttons">
+				<div id="write-send">
+					Send
+				</div>
+				<div class="email-divider"></div>
+				<div id="write-attach">
+					첨부
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div id="write-from">
+				<div>
+					From:
+				</div>
+				<input type="text" name="from" value="You"/>
+			</div>
+			<div id="write-to">
+				<div>
+					To:
+				</div>
+				<input type="text" name="to"/>
+			</div>
+			<div id="write-subject">
+				<div>
+					제목:
+				</div>
+				<input type="text" name="subject"/>
+			</div>
+			<div><img src="../img/email/disabled-format-buttons.jpg" width="853" height="32" alt=""/>
+			</div>
+			<div id="write-body">
+				<textarea name="body"></textarea>
+</div>			<div class="loading-bar">
+				<div class="progress"></div>
+			</div>
+		</div>
+		<div id="software-centre" class="software window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					우분투 소프트웨어 센터
+				</div>
+			</div>
+			<div class="top-panel">
+				<div class="back disabled"></div>
+				<div class="forward disabled"></div>
+				<div class="all-software selected"><img src="../img/software-centre/all-software.png" alt=""/>모든 소프트웨어
+				</div>
+				<div class="installed"><img src="../img/software-centre/installed.png" alt=""/>설치됨
+				</div>
+				<div class="history"><img src="../img/software-centre/history.png" alt=""/>기록
+				</div>
+			</div>
+			<div class="container detailed">
+				<div class="title"><img src="../img/software-centre/visolate.png" class="app-image" width="100" alt=""/><h1>Visolate</h1>
+					<p class="subheading">
+						PCB CNC 변환기
+					</p>
+					<p class="rating"><img src="../img/software-centre/rating.jpg" alt="" /> (91 등급)
+					</p>
+				</div>
+				<div class="price">
+					<span class="theprice">Free</span><span class="button">설치</span>
+					<div class="loading-bar">
+						<div class="progress"></div>
+					</div>
+				</div>
+				<div class="description-container">
+					<div class="description-image"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />
+					</div>
+					<div class="description"><img src="../img/software-centre/screenshot-blender.jpg" alt="" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quam augue, convallis id commodo id, tristique ac mi. Ut dapibus, neque eget elementum pretium, nunc turpis congue eros, et interdum nisi nisi at diam. Duis dictum, justo eget imperdiet pulvinar, dolor est fermentum nisl, luctus imperdiet metus elit a purus. Quisque nisl enim, lacinia ut venenatis in, porttitor eget orci. Quisque non nibh nec risus tincidunt sollicitudin vitae et nisl. Proin odio lacus, vulputate non auctor sit amet, dapibus quis tortor. Donec elit libero, pellentesque quis dictum sed, hendrerit non libero. Aliquam eu diam id leo auctor tincidunt. Phasellus cursus felis at nulla facilisis semper. Cras mauris urna, adipiscing sed scelerisque ut, gravida id neque. Mauris ut vestibulum justo. Curabitur convallis elementum pellentesque. Duis sit amet arcu ac eros pretium scelerisque. Nunc nec nisi nulla.
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+			</div>
+			<div class="container home">
+				<div class="header-image">
+					<span class="header-title">Our star apps</span>
+					<span class="header-subtitle">Come and explore our favourites</span>
+				</div>
+				<div class="navigation">
+					<ul>
+						<li>
+							악세서리
+						</li>
+						<li>
+							Developer Tools
+						</li>
+						<li>
+							교육
+						</li>
+						<li>
+							폰트
+						</li>
+						<li>
+							게임
+						</li>
+						<li>
+							그래픽
+						</li>
+						<li>
+							인터넷
+						</li>
+						<li>
+							오피스
+						</li>
+						<li>
+							과학 &amp; 공학
+						</li>
+						<li>
+							소리 &amp; 영상
+						</li>
+						<li>
+							시스템
+						</li>
+						<li>
+							테마 &amp; 트윅
+						</li>
+					</ul>
+				</div>
+				<div class="whats-new">
+					<h2> What's New</h2>
+					<div class="app-container">
+						<div class="chromium">
+							<h3>크로미움</h3>
+							<p>
+								인터넷
+							</p>
+							<p class="cost">
+								Free
+							</p>
+						</div>
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								게임
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								그래픽
+							</p>
+							<p class="cost">
+								Free
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								게임
+							</p>
+							<p class="cost">
+								$19.99
+							</p>
+						</div>
+						<div class="blender">
+							<h3>블랜더</h3>
+							<p>
+								그래픽
+							</p>
+							<p class="cost">
+								Free
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								게임
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="whats-new">
+					<h2> 최고 등급</h2>
+					<div class="app-container">
+						<div class="beep">
+							<h3>BEEP</h3>
+							<p>
+								게임
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="chromium">
+							<h3>크로미움</h3>
+							<p>
+								인터넷
+							</p>
+							<p class="cost">
+								Free
+							</p>
+						</div>
+						<div class="worldofgoo">
+							<h3>World of Goo</h3>
+							<p>
+								게임
+							</p>
+							<p class="cost">
+								$19.99
+							</p>
+						</div>
+						<div class="braid">
+							<h3>Braid</h3>
+							<p>
+								게임
+							</p>
+							<p class="cost">
+								$9.99
+							</p>
+						</div>
+						<div class="inkscape">
+							<h3>Inkscape</h3>
+							<p>
+								그래픽
+							</p>
+							<p class="cost">
+								Free
+							</p>
+						</div>
+						<div class="blender">
+							<h3>블랜더</h3>
+							<p>
+								그래픽
+							</p>
+							<p class="cost">
+								Free
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="shotwell" class="shotwell window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					숏웰
+				</div>
+			</div>
+			<div class="sidebar">
+				<div class="nav">
+					<ul>
+						<li class="library">
+							라이브러리
+						</li>
+					</ul>
+				</div>
+				<div class="details">
+					<div class="overall">
+						<div>
+							항목: <span class="items">16개 사진들</span>
+						</div>
+						<div>
+							From: <span class="from">Fri 26 Oct, 2001</span>
+						</div>
+						<div>
+							To: <span class="to">2010년 10월 11일 월</span>
+						</div>
+					</div>
+					<div class="single">
+						<div>
+							Title: <span class="title"></span>
+						</div>
+						<div>
+							Date: <span class="date"></span>
+						</div>
+						<div>
+							Size: <span class="size"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="images"></div>
+				<div class="tools">
+					<div class="jump-image">
+						<div class="next"></div><div class="prev"></div>
+					</div>
+					<div class="slider-container">
+						<div class="small-icon"></div><div class="slider"></div><div class="slider-active"></div><div class="large-icon"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="movieplayer" class="movieplayer window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					영화 플레이어
+				</div>
+			</div>
+			<div class="container">
+				<div class="video"></div>
+			</div>
+		</div>
+		<div id="firefox-window" class="firefox-window window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title">
+					Browse the web
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="firefox-back"></div>
+				<div class="firefox-forward"></div>
+				<div class="firefox-url">
+					<input type="text" name="submitURL" id="submitURL" value="http://www.ubuntu.com"/>
+				</div>
+				<div class="firefox-search">
+					<input type="text" name="submitSearch" id="submitSearch" value="Wikipedia" class="fade-text"/>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div class="firefox-internet">
+				<div class="web-overlay-tran"></div>
+				<div class="theIframe">
+					<iframe src="http://start.ubuntu.com" id="firefoxInternet" >
+						<p>
+							Your browser does not support iframes.
+						</p>
+					</iframe>
+				</div>
+			</div>
+		</div>
+		<div id="shutdown-window" class="window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="window-title">
+					종료
+				</div>
+			</div>
+			<div class="content">
+				<img src="../img/powerwarning.jpg" alt=""/>
+				<div class="message">
+					<p>
+						정말로 모든 프로그램을 닫고 컴퓨터를 종료하시겠습니까?
+					</p>
+				</div>
+				<div class="shutdown-buttons">
+					<div class="shutdown highlight">
+						종료
+					</div>
+					<div class="cancel">
+						취소
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="folder-window" class="folder window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="min"></div>
+				<div class="max"></div>
+				<div class="window-title"></div>
+			</div>
+
+			<div class="buttons">
+					<div class="folder-back"></div>
+					<div class="folder-forward"></div>
+				</div>
+				<div class="bottom-buttons"></div>
+				<div style="clear:both;"></div>
+			<div class="folder-list">
+				<div class="list">
+					<p>
+						Places
+					</p>
+					<ul>
+						<li class="home selected" data-folder="home">Home</li>
+						<li class="desktop" data-folder="5">데스크탑</li>
+						<li class="documents" data-folder="0">문서</li>
+						<li class="downloads" data-folder="1">Downloads</li>
+						<li class="music" data-folder="2">음악</li>
+						<li class="pictures" data-folder="4">Pictures</li>
+						<li class="videos" data-folder="3">Videos</li>
+						<li class="rubbish" data-folder="bin">휴지통</li>
+					</ul>
+				</div>
+			</div>
+			<div class="folder-contents">
+				<div class="contents"></div>
+				<div class="selected-details"></div>
+			</div>
+		</div>
+		<div id="welcome">
+			<div id="welcome-screen" class="selected-window">
+				<div class="control">
+					<div class="window-title">우분투 투어</div>
+				</div>
+				<div class="welcome-header">
+					<h1>우분투14.04에 오신것을 환영합니다!</h1>
+					<h2>온라인 데모와 테스트 드라이브의 우분투를 이용.</h2>
+				</div>
+				<ul>
+					<li>
+						<a class="browse-files" href="#browse-files">파일 탐색</a>
+					</li>
+					<li>
+						<a class="check-email" href="#check-email">이메일 확인</a>
+					</li>
+					<li>
+						<a class="surf-the-web" href="#surf-the-web">웹 서핑</a>
+					</li>
+					<li>
+						<a class="find-apps" href="#find-apps">앱 찾기</a>
+					</li>
+					<li>
+						<a class="create-documents" href="#create-documents">문서 생성</a>
+					</li>
+					<li>
+						<a class="view-photos" href="#view-photos">View photos</a>
+					</li>
+					<li>
+						<a class="create-presentations" href="#create-presentations">발표자료 만들기</a>
+					</li>
+					<li>
+						<a class="create-spreadsheets" href="#create-spreadsheets">스프레드시트 생성</a>
+					</li>
+					<li>
+						<a class="watch-video" href="#watch-video">영상 보기</a>
+					</li>
+				</ul>
+				<div class="language-mode">
+					<span class="active">English</span>
+					<a href="/zh-CN/">중국</a>
+				</div>
+				<a class="explore-mode primary" href="#">주변 둘러보기</a>
+				<a class="tour-mode" href="#">Take the guided tour</a>
+			</div>
+		</div>
+		<div id="tour-guide">
+			<div class="next-button">&rsaquo;</div>
+			<div class="prev-button">&lsaquo;</div>
+			<div class="guide-container welcome">
+				<div class="guide-logo"><img src="../img/tourguide/back-to-welcome.png" /></div>
+				<h3>우분투 온라인 투어</h3>
+				<p>
+					당신이 우분투 온라인 투어를 즐기는것을 희망합니다. <a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">다운로드 준비</a> 하거나 <a href="http://www.ubuntu.com/desktop/take-the-tour" >사이트로 돌아가기</a>
+				</p>
+			</div>
+			<div class="guide-container home">
+				<div class="guide-logo"><img src="../img/tourguide/file-small.png" />
+				</div>
+				<h3>파일 탐색</h3>
+				<p>
+					It’s quick and easy to access your folders and files from Ubuntu’s home folder.
+				</p>
+			</div>
+			<div class="guide-container firefox">
+				<div class="guide-logo"><img src="../img/tourguide/firefox-small.png" />
+				</div>
+				<h3>웹 서핑</h3>
+				<p>
+					우분투와 파이어폭스로 웹을 빠르고 안전하게 탐색할 수 있습니다.
+				</p>
+			</div>
+			<div class="guide-container email">
+				<div class="guide-logo"><img src="../img/tourguide/mail-small.png" />
+				</div>
+				<h3>이메일 확인</h3>
+				<p>
+					이메일을 읽고, 쓰고 보내는 것은 썬더버드와 함께. 쉽고 빠릅니다.
+				</p>
+			</div>
+			<div class="guide-container shotwell">
+				<div class="guide-logo"><img src="../img/tourguide/shotwell-small.png" />
+				</div>
+				<h3>View photos</h3>
+				<p>
+					You can upload, organise, edit and share your photos with Shotwell.
+				</p>
+			</div>
+			<div class="guide-container software">
+				<div class="guide-logo"><img src="../img/tourguide/apps-small.png" />
+				</div>
+				<h3>앱 찾기</h3>
+				<p>
+					Search and download apps fast from the Ubuntu Software Centre.
+				</p>
+			</div>
+			<div class="guide-container writer">
+				<div class="guide-logo"><img src="../img/tourguide/document-small.png" />
+				</div>
+				<h3>문서 생성</h3>
+				<p>
+					LibreOffice Writer makes it easy to draft professional documents.
+				</p>
+			</div>
+			<div class="guide-container calc">
+				<div class="guide-logo"><img src="../img/tourguide/calc-small.png" />
+				</div>
+				<h3>스프레드시트 생성</h3>
+				<p>
+					LibreOffice Calc has everything you need to create clear and accurate spreadsheets.
+				</p>
+			</div>
+			<div class="guide-container impress">
+				<div class="guide-logo"><img src="../img/tourguide/impress-small.png" />
+				</div>
+				<h3>발표자료 만들기</h3>
+				<p>
+					Make a good impression with the intuitive LibreOffice Impress presentation tool.
+				</p>
+			</div>
+			<div class="guide-container movieplayer">
+				<div class="guide-logo"><img src="../img/tourguide/video-small.png" />
+				</div>
+				<h3>영상 보기</h3>
+				<p>
+					당신은 마음에 드는 모든 영화와 비디오, DVD , 또는 영화를 다운로드하거나 감상 할 수 있습니다 당신은 만들수있습니다.
+				</p>
+			</div>
+			<div class=" tour-buttons">
+				<div class="explore-to-welcome">시작 화면</div>
+				<div class="explore-to-download">우분투 다운로드</div>
+				<div class="explore-to-exit">투어 종료</div>
+			</div>
+		</div>
+		<div id="Translation-Strings">
+			<!--
+			* Email system
+			-->
+			<p class="_email_1_title_">
+				Accessible
+			</p>
+			<p class="_email_2_title_">
+				Fast
+			</p>
+			<p class="_email_3_title_">
+				지원
+			</p>
+			<p class="_email_4_title_">
+				보안
+			</p>
+			<p class="_email_5_title_">
+				Your Ubuntu, your way
+			</p>
+			<p class="_email_1_body_">
+				접근성은 우분투의 핵심입니다.우리는 국적 , 인종, 성별 , 장애에 관계없이  모든 사람들을위한 컴퓨팅이라고 믿습니다. 충분히 38개의 언어로 번역되있으며, 물론 우분투는 필수 보조 기술을 완전히 무료로 포함합니다 완전히 무료로 포함합니다.
+			</p>
+			<p class="_email_2_body_">
+				우분투는 모든 컴퓨터에서 빠르게 불러옵니다,하지만 새로운 머신에서는 더욱더 빠릅니다. 다른 운영체제와 다르게 불필요한 프로그램과 기간제 느린 소프트웨어와 느리게 돌아가는 평가판 소프트웨어가 없고,부팅 과 브라우저를 여는데도 몇초 걸리지않습니다. 당신이 화면을 여는것을 떠나면, 온라인이 기다리고 있습니다. 그리고 우분투는 시간이 지남에 따라 부진한 노력을 하지않습니다. 단지 빠릅니다. 그리고 빠르게 유지됩니다.
+			</p>
+			<p class="_email_3_body_">
+				Ubuntu works brilliantly with a range of devices. Simply plug in your mp3 player, camera or printer and you’ll be up and running straight away. No installation CDs. No fuss. And it’s compatible with Windows too! So you can open, edit and share Microsoft Office documents stress-free.
+			</p>
+			<p class="_email_4_body_">
+				You can surf in safety with Ubuntu – confident that your files and data will stay protected. A built-in firewall and virus protection come as standard. And if a potential threat appears, we provide automatic updates which you can install in a single click. You get added security with AppArmor, which protects your important applications so attackers can’t access your system. And thanks to Firefox and gnome-keyring, Ubuntu helps you keep your private information private. So whether it’s accessing your bank account or sharing sensitive data with friends or colleagues, you’ll have peace of mind when you need it the most.
+			</p>
+			<p class="_email_5_body_">
+				우분투의 세련되고 직관적인 인터페이스의 단순성을 즐길 수 있습니다. 빠르고, 안전한 그리고 선택할수있는 응용 프로그램의 수천개, 우분투는 당신에게 깨끗함을 제공합니다 그리고 당신이 자신의 것을 만드는데 간편한 경험을 제공합니다.
+			</p>
+			<p class="_random_reply_">
+				Thanks for exploring Ubuntu! Remember, this is just a demo. You'll have to download it to enjoy the real thing!
+				<br/>
+				<br/>
+				<a href="http://www.ubuntu.com/download/ubuntu/download?utm_source=tour&utm_medium=online&utm_campaign=tour" target="_blank">우분투 다운로드</a>
+			</p>
+			<p class="_write_">
+				쓰기
+			</p>
+			<p class="_no_subject_">
+				제목 없음
+			</p>
+			<p class="_recipient_">
+				Recipient
+			</p>
+			<p class="_from_">
+				발신
+			</p>
+			<p class="_you_">
+				당신
+			</p>
+			<p class="_on_">
+				온
+			</p>
+			<p class="_wrote_">
+				씀
+			</p>
+			<p class="_original_message_">
+				Original Message
+			</p>
+			<p class="_fwd_">
+				Fwd
+			</p>
+			<!--
+			* Folder System
+			-->
+			<p class="_home_folder_">
+				Home
+			</p>
+			<p class="_desktop_folder_">
+				데스크탑
+			</p>
+			<p class="_pictures_folder_">
+				Pictures
+			</p>
+			<p class="_videos_folder_">
+				Videos
+			</p>
+			<p class="_music_folder_">
+				음악
+			</p>
+			<p class="_downloads_folder_">
+				Downloads
+			</p>
+			<p class="_documents_folder_">
+				문서
+			</p>
+			<p class="_canonical_folder_">
+				Canonical
+			</p>
+			<p class="_backup_folder_">
+				백업
+			</p>
+			<p class="_local_folder_">
+				Local
+			</p>
+			<p class="_work_folder_">
+				일
+			</p>
+			<p class="_branches_folder_">
+				브랜치
+			</p>
+			<p class="_rubbish_bin_folder_">
+				휴지통
+			</p>
+			<!--
+			* Software Center System
+			-->
+			<p class="_remove_">
+				Remove
+			</p>
+			<p class="_price_free_">
+				Free
+			</p>
+			<p class="_installed_">
+				설치됨
+			</p>
+			<p class="_install_">
+				설치
+			</p>
+			<p class="_installing_">
+				설치중
+			</p>
+			<p class="_chromium_app_">
+				크로미움 웹 브라우저
+			</p>
+			<p class="_chromium_sub_">
+				Access the Internet
+			</p>
+			<p class="_chromium_desc_">
+				Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all Internet users to experience the web.
+				<br/>
+				<br/>
+				크로미움은 구글 크롬 서버에 기반합니다,(이름과 로고)는 크롬의 상표이며 사용 추적과 자동-업데이터 시스템와 같은것이 추가됩니다.
+				<br/>
+				<br/>
+				이 패키지는 크로미움 브라우저를 포함합니다
+			</p>
+			<p class="_beep_app_">
+				BEEP
+			</p>
+			<p class="_beep_sub_">
+				2D 플래포머/물리-기반 퍼즐의 슈터 게임
+			</p>
+			<p class="_beep_desc_">
+				BEEP is a 2D side-scrolling platformer with physics-based gameplay. You control a small robot equipped with an anti-gravity device, a jet-pack and a gun. Drive, jump, fly, swim and shoot your way through 24 levels scattered across 6 unique environments.
+				<br/>
+				<br/>
+				Use BEEP’s anti-gravity device to directly manipulate the physics-based environments. The anti-gravity device is both a tool and a weapon. Use it to smash enemy robots, build towers and solve puzzles.
+				<br/>
+				<br/>
+				비프는 은하계를 탐험하는 깊은 공간을 통해 수천 년 동안 여행했습니다. 비프-선박 과 외국 스타 시스템을 통과 하고  행성의 표면에 로봇을 보낼 수 있습니다.
+			</p>
+			<p class="_inkscape_app_">
+				Inkscape Vector Graphics Editor
+			</p>
+			<p class="_inkscape_sub_">
+				확장 백터 그래픽 이미지 만들고 수정
+			</p>
+			<p class="_inkscape_desc_">
+				Inkscape loads and saves a subset of the SVG (Scalable Vector Graphics) format, a standard maintained by the WWW consortium.
+				<br/>
+				<br/>
+				The Inkscape user interface should be familiar from CorelDraw and similar drawing programs. There are rectangles, ellipses, text items, bitmap images and freehand curves. As an added bonus, both vector and bitmap objects can have alpha transparency and can be arbitrarily transformed.
+				<br/>
+				<br/>
+				잉크스케이프는 다중 파일 열기와 여러개 파일을 보는것을 지원합니다. 그래픽 인쇄 및 PNG 비트 맵 으로 내보낼 수 있습니다.
+				<br/>
+				<br/>
+				가져 오기 및 내보내기 기능 중 일부는 패키지 직경 을 사용하여 제공됩니다, libwmf-bin, pstoedit, skencil, imagemagick, 그리고 perlmagick.
+				<br/>
+				<br/>
+				Other extensions use ruby, libxml-xql-perl, python-numpy, and python-lxml. You must have these packages to make full use of all extensions and effects.
+				<br/>
+				<br/>
+				If you want to use the spellchecker, you have to install aspell and the respective language-pack, e.g. aspell-en or aspell-de.
+			</p>
+			<p class="_world_of_goo_app_">
+				World of Goo
+			</p>
+			<p class="_world_of_goo_sub_">
+				물리 기반의 퍼즐 / 건설 게임
+			</p>
+			<p class="_world_of_goo_desc_">
+				Drag and drop living, squirming, talking globs of goo to build structures, bridges, cannonballs, zeppelins, and giant tongues. The millions of innocent goo balls that live in the beautiful World of Goo are curious to explore.
+				<br/>
+				<br/>
+				But they dont know that they are in a game, or that they are extremely delicious. The most addicting and awe-inspiring puzzle game will set you on an adventure that youll never forget!
+			</p>
+			<p class="_blender_app_">
+				블랜더
+			</p>
+			<p class="_blender_sub_">
+				3D 모델과 애니메이션 만들고 수정
+			</p>
+			<p class="_blender_desc_">
+				Blender is an integrated 3d suite for modelling, animation, rendering, post-production, interactive creation and playback (games). Blender has its own particular user interface, which is implemented entirely in OpenGL and designed with speed in mind. Python bindings are available for scripting; import/export features for popular file formats like 3D Studio and Wavefront Obj are implemented as scripts by the community. Stills, animations, models for games or other third party engines and interactive content in the form of a standalone binary and/or a web plug-in are common products of Blender use.
+			</p>
+			<p class="_braid_app_">
+				Braid
+			</p>
+			<p class="_braid_sub_">
+				퍼즐을 해결하기위해 시간을 조종합니다.
+			</p>
+			<p class="_braid_desc_">
+				Manipulate the flow of time to solve puzzles! Braid is a platform game in painterly style, where you manipulate the flow of time to solve puzzles. Every puzzle in Braid is unique; there is no filler.
+				<br/>
+				<br/>
+				Braid treats your time and attention as precious, and it does everything it can to give you a mind-expanding experience.
+				<br/>
+				<br/>
+				All gameplay is based on time manipulation. Journey into worlds where time behaves strangely; observe, learn from, and then master these worlds.
+			</p>
+			<p class="_rhythmbox_app_">
+				리듬박스 미디어 플레이어
+			</p>
+			<p class="_brasero_app_">
+				브라세로 디스크 버너
+			</p>
+			<p class="_movie_player_app_">
+				영화 플레이어
+			</p>
+			<p class="_shotwell_app_">
+				숏웰 포토 매니저
+			</p>
+			<p class="_pitivi_app_">
+				PiTiVi 비디오 에디터
+			</p>
+			<p class="_sound_recorder_app_">
+				소리 녹음기
+			</p>
+			<p class="_empathy_app_">
+				엠파시 인터넷 메시징
+			</p>
+			<p class="_thunderbird_app_">
+				썬더버드 메일/뉴스
+			</p>
+			<p class="_firefox_app_">
+				파이어폭스 웹 브라우저
+			</p>
+			<p class="_gwibber_app_">
+				Gwibber 소셜 클라이언트
+			</p>
+			<p class="_remote_desktop_app_">
+				원격 데스크탑 뷰어
+			</p>
+			<p class="_terminal_app_">
+				Terminal Server Client
+			</p>
+			<p class="_ubuntu_one_app_">
+				우분투 원
+			</p>
+			<p class="_ubuntu_software_center_app_">
+				우분투 소프트웨어 센터
+			</p>
+			<p class="_ubuntu_one_music_app_">
+				Ubuntu One Music
+			</p>
+			<p class="_amazon_app_">
+				Amazon
+			</p>
+			<p class="_about_me_app_">
+				나에 대해서
+			</p>
+			<p class="_additional_drivers_app_">
+				독덤 드라이버
+			</p>
+			<p class="_aisleroit_app_">
+				AisleRoit Solitaire
+			</p>
+			<p class="_appearance_app_">
+				Appearance
+			</p>
+			<p class="_bluetooth_app_">
+				블루투스
+			</p>
+			<!--
+			* Dash
+			-->
+			<p class="_search_">당신의 컴퓨터와 온라인 소스에서 찾기</p>
+			<!--
+			* Notifications
+			-->
+			<p class="_turn_off_bluetooth_">
+				블루투스 끄기
+			</p>
+			<p class="_turn_on_bluetooth_">
+				블루투스 켜기
+			</p>
+			<p class="_visible_">
+				Visible
+			</p>
+			<p class="_mute_">
+				음소거
+			</p>
+			<p class="_unmute_">
+				음소거 해제
+			</p>
+			<p class="_shut_down_">
+				종료…
+			</p>
+			<!--
+				Files Details - Images
+			-->
+			<p class="_photo_size_">
+				15.2KB
+			</p>
+			<p class="_photo_date_">
+				Fri 26 Oct, 2001
+			</p>
+			<p class="_buck_off_title_">
+				Buck Off
+			</p>
+			<p class="_darkening_clockwork_title_">
+				Darkening Clockwork
+			</p>
+			<p class="_dybbølsbro_station_title_">
+				Dybbølsbro Station
+			</p>
+			<p class="_federica_miglio_title_">
+				Federica Miglio
+			</p>
+			<p class="_jardin_polar_title_">
+				Jardin Polar
+			</p>
+			<p class="_langelinie_alle_title_">
+				Langelinie Alle
+			</p>
+			<p class="_momiji_dream_title_">
+				Momiji 꿈
+			</p>
+			<p class="_mount_snowdon_title_">
+				Mount Snowdon
+			</p>
+			<p class="_not_alone_title_">
+				Not Alone
+			</p>
+			<p class="_power_of_words_title_">
+				워드의 힘
+			</p>
+			<p class="_purple_dancers_title_">
+				Purple Dancers
+			</p>
+			<p class="_sand_maze_title_">
+				Sand Maze
+			</p>
+			<p class="_small_flowers_title_">
+				작은 꽃들
+			</p>
+			<p class="_stalking_ocelot_title_">
+				Stalking Ocelot
+			</p>
+			<p class="_the_grass_aint_greener_title_">
+				The Grass Aint Greener
+			</p>
+			<p class="_wildWheat_title_">
+				WildWheat
+			</p>
+			<!--
+				Files Details - Video
+			-->
+			<p class="_introduction_ubuntu_title_">
+				Introduction Ubuntu
+			</p>
+			<p class="_video_size_">
+				5.3MB
+			</p>
+			<p class="_video_date_">
+				2010년 10월 11일 월
+			</p>
+			<!--
+				Files Details - Music
+			-->
+			<p class="_happyness_title_">
+				행복
+			</p>
+			<p class="_music_size_">
+				3.3MB
+			</p>
+			<p class="_music_date_">
+				2010년 10월 14일 수
+			</p>
+		</div>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="../js/lang.js"></script>
+		<script type="text/javascript" src="../js/scripts.js"></script>
+		<script type="text/javascript" src="../js/welcomesystem.js"></script>
+		<script type="text/javascript" src="../js/guidedtoursystem.js"></script>
+		<script type="text/javascript" src="../js/filesystem.js"></script>
+		<script type="text/javascript" src="../js/folders.js"></script>
+		<script type="text/javascript" src="../js/systemoverlay.js"></script>
+		<script type="text/javascript" src="../js/systemmenu.js"></script>
+		<script type="text/javascript" src="../js/internetsystem.js"></script>
+		<script type="text/javascript" src="../js/emailsystem.js"></script>
+		<script type="text/javascript" src="../js/systemsettings.js"></script>
+		<script type="text/javascript" src="../js/email.js"></script>
+		<script type="text/javascript" src="../js/errormessage.js"></script>
+		<script type="text/javascript" src="../js/ubuntuonesystem.js"></script>
+		<script type="text/javascript" src="../js/file.js"></script>
+		<script type="text/javascript" src="../js/shotwellsystem.js"></script>
+		<script type="text/javascript" src="../js/shutdownSystem.js"></script>
+		<script type="text/javascript" src="../js/movieplayersystem.js"></script>
+		<script type="text/javascript" src="../js/libresystem.js"></script>
+		<script type="text/javascript" src="../js/softwaresystem.js"></script>
+		<script type="text/javascript" src="../js/notificationsystem.js"></script>
+		<script type="text/javascript" src="../js/analytics.js"></script>
+	</body>
+</html>
