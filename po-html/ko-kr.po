@@ -825,6 +825,9 @@ msgid ""
 "bridges, cannonballs, zeppelins, and giant tongues. The millions of innocent "
 "goo balls that live in the beautiful World of Goo are curious to explore."
 msgstr ""
+"드래그 앤 드롭 생활화, 꿈틀, 구조 교량을 건설하는 끈적 거리는의 globs의 이야기, "
+"globs와는 포탄, 제플린, 그리고 거대한 방언을 다리. "
+"끈적 거리는의 아름다운 세계에 살고있는 끈적 거리는 공 탐험 호기심입니다."
 
 #: ../en/index.html
 msgid "Chromium Web Browser"
