@@ -773,30 +773,43 @@ msgid ""
 "of a standalone binary and/or a web plug-in are common products of Blender "
 "use."
 msgstr ""
+"블렌더는 모델링, 애니메이션, 렌더링, 포스트위한 통합 3D 제품군입니다"
+"생산, 대화 형 생성 및 재생 (게임). 블렌더는 자신이  "
+"OpenGL은 전적으로 구현을 염두에두고 속도로 설계되었습니다	 "
+"특정 사용자 인터페이스. 파이썬 바인딩은 스크립팅을 사용할 수 있습니다; "
+"3D Studio 및 파면 등의 인기있는 파일 형식에 대한 가져 오기 / 내보내기 기능 "
+"OBJ는 지역 사회에 의해 스크립트로 구현됩니다. 스틸, 애니메이션, 모델 "
+"형태의 게임 또는 제 3 자 엔진과 상호 작용하는 콘텐츠에 대한 "
+"독립형 이진 및 / 또는 웹 플러그인 블렌더  "
+"사용 공통 제품입니다."
 
 #: ../en/index.html
 msgid "Your browser does not support iframes."
-msgstr ""
+msgstr "당신의 브라우저가 iframes을 지원하지않습니다."
 
 #: ../en/index.html
 msgid ""
 "Make a good impression with the intuitive LibreOffice Impress presentation "
 "tool."
 msgstr ""
+"직관적인 리브레오피스 임프레스 프리젠 테이션 도구를 사용하여 "
+"좋은 발표를 합니다."
 
 #: ../en/index.html
 msgid ""
 "It’s quick and easy to access your folders and files from Ubuntu’s home "
 "folder."
 msgstr ""
+"당신의 폴더와 파일을 우분투 홈 폴더에서 빠르고 쉽게 엑세스 "
+"할 수 있습니다."
 
 #: ../en/index.html
 msgid "Our star apps"
-msgstr ""
+msgstr "유명한 앱"
 
 #: ../en/index.html
 msgid "Logout"
-msgstr ""
+msgstr "로그아웃"
 
 #: ../en/index.html
 msgid "The Grass Aint Greener"
@@ -812,6 +825,9 @@ msgid ""
 "bridges, cannonballs, zeppelins, and giant tongues. The millions of innocent "
 "goo balls that live in the beautiful World of Goo are curious to explore."
 msgstr ""
+"드래그 앤 드롭 생활화, 꿈틀, 구조 교량을 건설하는 끈적 거리는의 globs의 이야기, "
+"globs와는 포탄, 제플린, 그리고 거대한 방언을 다리. "
+"끈적 거리는의 아름다운 세계에 살고있는 끈적 거리는 공 탐험 호기심입니다."
 
 #: ../en/index.html
 msgid "Chromium Web Browser"
@@ -819,11 +835,11 @@ msgstr "크로미움 웹 브라우저"
 
 #: ../en/index.html
 msgid "Recipient"
-msgstr ""
+msgstr "받는사람"
 
 #: ../en/index.html
 msgid "Fast"
-msgstr ""
+msgstr "빠른"
 
 #: ../en/index.html
 msgid "Restart"
@@ -831,15 +847,15 @@ msgstr "재시작"
 
 #: ../en/index.html
 msgid "Recent"
-msgstr ""
+msgstr "최근"
 
 #: ../en/index.html
 msgid "To:"
-msgstr ""
+msgstr "발신:"
 
 #: ../en/index.html
 msgid "Date:"
-msgstr ""
+msgstr "날짜:"
 
 #: ../en/index.html
 msgid ""
@@ -865,7 +881,7 @@ msgstr "제목없음 1 - 리브레오피스 Calc"
 
 #: ../en/index.html
 msgid "I already have an account!"
-msgstr ""
+msgstr "이미 계정을 가지고있습니다!"
 
 #: ../en/index.html
 msgid "System"
@@ -880,6 +896,8 @@ msgid ""
 "LibreOffice Calc has everything you need to create clear and accurate "
 "spreadsheets."
 msgstr ""
+"리브레오피스 Calc은 항상 당신이 필요한 스프레드시트를 깔끔하고 정확하게"
+"만들수있습니다."
 
 #: ../en/index.html
 msgid ""
@@ -948,6 +966,10 @@ msgid ""
 "installation CDs. No fuss. And it’s compatible with Windows too! So you can "
 "open, edit and share Microsoft Office documents stress-free."
 msgstr ""
+"우분투는 쓸수 있는 디바이스의 범위가 훌륭합니다. 간단히 당신의 mp3 플레이어를 "
+"꽂으세요, 카메라 혹은 프린트와 당신이 바로 시작하고 싶어하는것. CD 설치가 "
+"필요없습니다. 놀라지마세요. 그리고 윈도우와 호환됩니다! 그래서 당신은 열고, "
+"편집 및 Microsoft Office 문서를 스트레스없이 공유 할 수 있습니다."
 
 #: ../en/index.html
 msgid "work"
@@ -1024,6 +1046,9 @@ msgid ""
 "delicious. The most addicting and awe-inspiring puzzle game will set you on "
 "an adventure that youll never forget!"
 msgstr ""
+"그러나 그들은 게임에 있는지 모릅니다, 또는 매우 맛있는 것을. "
+"가장 중독성과 경외감을 고무시키는 퍼즐 게임 알면 "
+"결코 잊지 않을 모험에 당신을 설정합니다!"
 
 #: ../en/index.html
 msgid "Turn On Bluetooth"
@@ -1060,6 +1085,10 @@ msgid ""
 "gun. Drive, jump, fly, swim and shoot your way through 24 levels scattered "
 "across 6 unique environments."
 msgstr ""
+"비프는 2D 물리-기반 게임플레이의 사이드-스크롤링 플랫포머입니다."
+"반 중력 장치를 구비 한 소형 로봇을 제어하고, "
+"제트 팩과 총. , 점프, 드라이브 비행, 수영, 6 고유 한 환경에 흩어져 24 레벨을 통해  "
+"귀하의 방식으로 촬영합니다."
 
 #: ../en/index.html
 msgid "You"
@@ -1143,7 +1172,7 @@ msgstr "리브레오피스 라이터"
 
 #: ../en/index.html
 msgid "From:"
-msgstr ""
+msgstr "발신:"
 
 #: ../en/index.html
 msgid "Remote Desktop Viewer"
@@ -1203,9 +1232,9 @@ msgid ""
 "painterly style where you manipulate the flow of time to solve puzzles. "
 "Every puzzle in Braid is unique; there is no filler."
 msgstr ""
-"Manipulate the flow of time to solve puzzles! Braid is a platform game in "
-"painterly style, where you manipulate the flow of time to solve puzzles. "
-"Every puzzle in Braid is unique; there is no filler."
+"퍼즐을 해결하기 위해 시간의 흐름을 조작! 브레이드는 퍼즐을 해결하는 "
+"시간의 흐름으로 적을 조작하는 스타일의 플랫폼 게임입니다. "
+"브레이드의 모든 퍼즐은 고유; 필러는 없습니다."
 
 #: ../en/index.html
 msgid "Mon 11 October, 2010"
