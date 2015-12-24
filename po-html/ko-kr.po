@@ -337,7 +337,7 @@ msgstr "파일 탐색"
 
 #: ../en/index.html
 msgid "Come and explore our favourites"
-msgstr ""
+msgstr "오셔서 우리가 즐겨하는것을 찾으세요"
 
 #: ../en/index.html
 msgid "Shut Down…"
@@ -512,6 +512,8 @@ msgid ""
 "Braid treats your time and attention as precious, and it does everything it "
 "can to give you a mind-expanding experience."
 msgstr ""
+"브레이드는 소중한 귀하의 시간과 관심을 취급하고, 당신에게 마음을 확장할 수 있는 "
+"경험을 제공 할 수 있는 모든 작업을 수행합니다."
 
 #: ../en/index.html
 msgid "English"
@@ -817,7 +819,7 @@ msgstr "The Grass Aint Greener"
 
 #: ../en/index.html
 msgid "forward"
-msgstr ""
+msgstr "앞으로"
 
 #: ../en/index.html
 msgid ""
@@ -851,7 +853,7 @@ msgstr "최근"
 
 #: ../en/index.html
 msgid "To:"
-msgstr "발신:"
+msgstr "수신:"
 
 #: ../en/index.html
 msgid "Date:"
@@ -1148,7 +1150,7 @@ msgstr "확장 백터 그래픽 이미지 만들고 수정"
 
 #: ../en/index.html
 msgid "What's New"
-msgstr ""
+msgstr "새로 출시"
 
 #: ../en/index.html
 msgid "Movie Player"
