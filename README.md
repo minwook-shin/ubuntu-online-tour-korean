@@ -3,7 +3,7 @@ korean po file made by.minwook-shin <br>
 demo site : http://minwook-shin.github.io/ubuntu-online-tour-korean <br>
 
 #License
-Creative Commons License CC BY-NC-SA https://creativecommons.org/licenses/by-nc-sa/4.0/ <br>
+GPL 2.0
 
 ## How to create translated HTML pages
 
