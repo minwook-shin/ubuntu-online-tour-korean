@@ -2,8 +2,29 @@
 korean po file made by.minwook-shin <br>
 demo site : http://minwook-shin.github.io/ubuntu-online-tour-korean <br>
 
-#License
-GPL 2.0
+#translate License
+GPL 3.0
+
+#Details License for source package
+Files: * <Br>
+Copyright: 2011, 2012 Canonical Ltd.<Br>
+License: GPL-3+<Br>
+
+Files: img/*<Br>
+Copyright: 2011 Canonical Ltd.<Br>
+License: CC-BY-SA 3.0<Br>
+
+Files: pie/*<Br>
+Copyright: 2011 Jason Johnston<Br>
+License: Apache-2<Br>
+
+Files: js/jquery.min.js<Br>
+Copyright: 2011 John Resig<Br>
+License: MIT<Br>
+
+Files: js/jquery-ui.min.js<Br>
+Copyright:(c) 2008 Paul Bakaus (ui.jquery.com)<Br>
+License: MIT<Br>
 
 ## How to create translated HTML pages
 
