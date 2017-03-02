@@ -1,5 +1,6 @@
 #UBUNTU ONLINE TOUR KOREAN
-korean po file made by.minwook-shin <br>
+korean po file <br>
+made by.minwook-shin <br>
 demo site : http://minwook-shin.github.io/ubuntu-online-tour-korean <br>
 
 #translate License
@@ -65,7 +66,6 @@ Usage: translate-html {--extract|--translate} [options] <br>
       po-html/zh_CN.po     <- translation done by translators <br>
       po-html/ca.po        <- another translation, naming: <ISO 639-2 code>.po <br>
 
-    
 
 Options: <br>
   --version        show program's version number and exit <br>
@@ -79,4 +79,4 @@ Options: <br>
   -s, --test       Test mode: only effective in conjunction with Translate <br>
                    mode. If set, untranslatable messages are translated as <br>
                    reversed English, so that they are easy to spot. <br>
- 
+
