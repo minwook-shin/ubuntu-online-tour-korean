@@ -1,12 +1,12 @@
-#UBUNTU ONLINE TOUR KOREAN
+# UBUNTU ONLINE TOUR KOREAN
 korean po file <br>
 made by.minwook-shin <br>
 demo site : http://minwook-shin.github.io/ubuntu-online-tour-korean <br>
 
-#translate License
+# translate License
 GPL 3.0
 
-#Details License for source package
+# Details License for source package
 Files: * <Br>
 Copyright: 2011, 2012 Canonical Ltd.<Br>
 License: GPL-3+<Br>
